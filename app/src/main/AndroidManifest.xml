@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Einglish">
+            <intent-filter>
+                <action android:name="android.intent.action.Einglish" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Arabic">
+            <intent-filter>
+                <action android:name="android.intent.action.Arabic" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Amman_E">
+            <intent-filter>
+                <action android:name="android.intent.action.amman_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Irbid_E">
+            <intent-filter>
+                <action android:name="android.intent.action.irbid_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Jerash_E">
+            <intent-filter>
+                <action android:name="android.intent.action.jerash_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Salt_E">
+            <intent-filter>
+                <action android:name="android.intent.action.salt_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Zarqa_E">
+            <intent-filter>
+                <action android:name="android.intent.action.zarqa_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tafilah_E">
+            <intent-filter>
+                <action android:name="android.intent.action.tafilah_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Ajloun_E">
+            <intent-filter>
+                <action android:name="android.intent.action.ajloun_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Aqaba_E">
+            <intent-filter>
+                <action android:name="android.intent.action.aqaba_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Karak_E">
+            <intent-filter>
+                <action android:name="android.intent.action.kara_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Madaba_E">
+            <intent-filter>
+                <action android:name="android.intent.action.madaba_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Maan_E">
+            <intent-filter>
+                <action android:name="android.intent.action.maan_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Mafraq_E">
+            <intent-filter>
+                <action android:name="android.intent.action.mafraq_e" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e1">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tourismplacse_e2">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e3">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e4">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e5">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e6">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e7">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e8">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e9">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e10">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e11">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_e12">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_e12" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e1">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e2">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".hotels_e3">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e4">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e5">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e6">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e7">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e8">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e9">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e10">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e11">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".hotels_e12">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_e12" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Resturant_e1">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_e2">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Resturant_e3">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_e4">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_e5">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_e6">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_e7">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_e8">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_e9">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_e10">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Resturant_e11">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Resturant_e12">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_e12" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".Amman_a">
+            <intent-filter>
+                <action android:name="android.intent.action.amman_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Irbid_a">
+            <intent-filter>
+                <action android:name="android.intent.action.irbid_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Jerash">
+            <intent-filter>
+                <action android:name="android.intent.action.jerash_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Salt_a">
+            <intent-filter>
+                <action android:name="android.intent.action.salt_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Zarqa_a">
+            <intent-filter>
+                <action android:name="android.intent.action.zarqa_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".tafila_a">
+            <intent-filter>
+                <action android:name="android.intent.action.tafilah_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Ajloun_a">
+            <intent-filter>
+                <action android:name="android.intent.action.ajloun_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Aqaba_a">
+            <intent-filter>
+                <action android:name="android.intent.action.aqaba_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Karak_a">
+            <intent-filter>
+                <action android:name="android.intent.action.kara_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Madaba_a">
+            <intent-filter>
+                <action android:name="android.intent.action.madaba_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Maan_a">
+            <intent-filter>
+                <action android:name="android.intent.action.maan_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Mafraq_a">
+            <intent-filter>
+                <action android:name="android.intent.action.mafraq_a" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Hotels_a1">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a2">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Hotels_a3">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a4">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a5">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a6">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a7">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a8">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a9">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a10">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a11">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hotels_a12">
+            <intent-filter>
+                <action android:name="android.intent.action.hotels_a12" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Tourismplacse_a1">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tourismplacse_a2">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a3">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a4">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a5">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a6">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a7">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a8">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a9">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a10">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a11">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tourismplacse_a12">
+            <intent-filter>
+                <action android:name="android.intent.action.tourismplacse_a12" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_a1">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_a2">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Resturant_a3">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_a4">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_a5">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_a6">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_a7">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_a8">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_a9">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Resturant_a10">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Resturant_a11">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Resturant_a12">
+            <intent-filter>
+                <action android:name="android.intent.action.resturant_a12" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
